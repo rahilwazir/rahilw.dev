@@ -2,3 +2,16 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Rahil Wazir"
 theme = "hello-friend-ng"
+
+[params.Logo]
+logoText = "rw"
+
+[[params.Social]]
+    name = "github"
+    url = "https://github.com/rahilwazir"
+[[params.Social]]
+    name = "twitter"
+    url = "https://twitter.com/rahilwazir"
+[[params.Social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/rahil-wazir-ab417651"
