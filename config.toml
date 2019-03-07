@@ -1,7 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://rahilw.dev/"
 languageCode = "en-us"
 title = "Rahil Wazir"
 theme = "hello-friend-ng"
+enableRobotsTxt = true
+enableGitInfo = true
 
 [params.Logo]
 logoText = "rw"
