@@ -4,6 +4,10 @@ title = "Rahil Wazir"
 theme = "hello-friend-ng"
 enableRobotsTxt = true
 enableGitInfo = true
+Copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" rel=\"noopener\" target=\"_blank\">CC BY-NC 4.0</a>"
+
+[Author]
+    name = "Rahil Wazir"
 
 [params.Logo]
 logoText = "rw"
