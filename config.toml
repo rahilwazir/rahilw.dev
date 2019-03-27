@@ -1,23 +1,53 @@
-baseURL = "https://rahilw.dev/"
-languageCode = "en-us"
-title = "Rahil Wazir"
-theme = "hello-friend-ng"
+baseurl = "https://rahilw.dev/"
+languagecode = "en-us"
+defaultcontentlanguage = "en"
+title = "Rw"
+theme = "hugo-coder"
 enableRobotsTxt = true
 enableGitInfo = true
-Copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" rel=\"noopener\" target=\"_blank\">CC BY-NC 4.0</a>"
 
-[Author]
-    name = "Rahil Wazir"
+[params]
+    hideCredits = true
+    author = "Rahil Wazir"
 
-[params.Logo]
-    logoText = "rw"
+[taxonomies]
+  series = "series"
 
-[[params.Social]]
-    name = "github"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
     url = "https://github.com/rahilwazir"
-[[params.Social]]
-    name = "twitter"
+
+[[params.social]]
+    name = "Stackoverflow"
+    icon = "fab fa-stack-overflow"
+    url = "https://stackoverflow.com/users/2264626/rahil-wazir?tab=profile"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
     url = "https://twitter.com/rahilwazir"
-[[params.Social]]
-    name = "linkedin"
+
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin"
     url = "https://www.linkedin.com/in/rahil-wazir-ab417651"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
+
+        [[languages.en.menu.main]]
+        name = "Contact"
+        weight = 1
+        url = "/contact/"
+    
+    [languages.ur-pk]
+        languagename = "Urdu"
+        title = "اردو"
+        rtl = true
