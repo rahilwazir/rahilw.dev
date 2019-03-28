@@ -1,7 +1,6 @@
 ---
 title: "Hugo Extended on Netlify"
 date: 2019-03-28T16:50:01+05:00
-draft: true
 ---
 
 So I was setting up my website with Hugo and having hard time deploying in Netlify because of [various errors](https://github.com/gohugoio/hugo/issues/5745). I didn't want to struck with issue(s) so I switched my theme as I wanted my site to go live soon.
