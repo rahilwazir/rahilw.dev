@@ -9,7 +9,7 @@ I picked [hugo-coder](https://github.com/luizdepra/hugo-coder/), it was great an
 
 Darn, again :worried: hit by an issue. It was related to SCSS compilation and Hugo uses `... | toCSS` pipe function for that, and it was not supported by regular Hugo version. I went to Netlify [build config](https://github.com/rahilwazir/rahilw.dev/blob/master/config.toml) and was trying to figure out, why is it not using the extended version or how can I force it to but no luck :thumbsdown:.
 
-Found out :collision: the build image selection used by Netlify was **Ubuntu Trusty (14.04)** and there were some [missing dependencies](https://github.com/netlify/build-image/issues/183) in that image which was by required Hugo extended version to work properly.
+Found out :collision: the build image selection used by Netlify was **Ubuntu Trusty (14.04)** and there were some [missing dependencies](https://github.com/netlify/build-image/issues/183) in that image which was required by Hugo Extended version to work properly.
 
 ## The Solution :white_check_mark:
 
