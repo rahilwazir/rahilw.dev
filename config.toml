@@ -5,6 +5,7 @@ title = "Rw"
 theme = "hugo-coder"
 enableRobotsTxt = true
 enableGitInfo = true
+enableEmoji = true
 
 [params]
     hideCredits = true
@@ -38,15 +39,10 @@ enableGitInfo = true
         languagename = "English"
 
         [[languages.en.menu.main]]
-        name = "About"
+        name = "Blog"
         weight = 1
-        url = "/about/"
+        url = "/blog/"
 
-        [[languages.en.menu.main]]
-        name = "Contact"
-        weight = 1
-        url = "/contact/"
-    
     [languages.ur-pk]
         languagename = "Urdu"
         title = "اردو"
