@@ -1,7 +1,7 @@
 baseurl = "https://rahilw.dev/"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
-title = "Rw"
+title = "Rahil Wazir"
 theme = "hugo-coder"
 enableRobotsTxt = true
 enableGitInfo = true
