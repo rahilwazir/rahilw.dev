@@ -1,7 +1,7 @@
 baseurl = "https://rahilw.dev/"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
-title = "Rahil Wazir"
+title = "Raheel Wazir"
 theme = "hugo-coder"
 enableRobotsTxt = true
 enableGitInfo = true
@@ -9,29 +9,29 @@ enableEmoji = true
 
 [params]
     hideCredits = true
-    author = "Rahil Wazir"
+    author = "Raheel Wazir"
 
 [taxonomies]
   series = "series"
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-2x fa-github"
     url = "https://github.com/rahilwazir"
 
 [[params.social]]
     name = "Stackoverflow"
-    icon = "fab fa-stack-overflow"
+    icon = "fa fa-2x fa-stack-overflow"
     url = "https://stackoverflow.com/users/2264626/rahil-wazir?tab=profile"
 
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter"
+    icon = "fa fa-2x fa-twitter"
     url = "https://twitter.com/rahilwazir"
 
 [[params.social]]
     name = "Linkedin"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-2x fa-linkedin"
     url = "https://www.linkedin.com/in/rahil-wazir-ab417651"
 
 [languages]
