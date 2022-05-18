@@ -1,7 +1,7 @@
 baseurl = "https://rahilw.dev/"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
-title = "Raheel Wazir"
+title = "Rahil Wazir"
 theme = "hugo-coder"
 enableRobotsTxt = true
 enableGitInfo = true
@@ -9,7 +9,7 @@ enableEmoji = true
 
 [params]
     hideCredits = true
-    author = "Raheel Wazir"
+    author = "Rahil Wazir"
 
 [taxonomies]
   series = "series"
@@ -33,6 +33,11 @@ enableEmoji = true
     name = "Linkedin"
     icon = "fa fa-2x fa-linkedin"
     url = "https://www.linkedin.com/in/rahil-wazir-ab417651"
+
+[[params.social]]
+    name = "WordPress"
+    icon = "fa fa-2x fa-wordpress"
+    url = "https://profiles.wordpress.org/rahilwazir/#content-plugins"
 
 [languages]
     [languages.en]
